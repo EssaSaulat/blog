@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The meta problem with startup advice</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="created" content="2020-08-05T07:50:28+0100" />
+    <meta name="modified" content="2020-08-08T11:08:36+0100" />
+    <meta name="tags" content="" />
+    <meta name="last device" content="Essa’s iMac" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="blog-logo.png" type="image/png">
+  </head>
+  <body>
+    <div class="note-wrapper">
+      <h1 id="The meta problem with startup advice">
+        The meta problem with startup advice
+      </h1>
+      <p>
+        An essay on how more often than not, advice is either disregarded or not
+        strongly considered, till a person falls into a hole and realises the
+        value of it.
+      </p>
+      <br />
+      <h3 id="Things to consider">Things to consider</h3>
+      <ul>
+        <li>
+          Is the pain or experience of falling into the relevant hole (vs a
+          general one) absolutely needed, or is there a possible way to avoid
+          this?
+        </li>
+        <li>
+          While advice will be weighted based on apparent/perceived authority or
+          “success” of the advisor, is that the core issue here? For example,
+          unless I’m mistaken, I’ve heard that even for people like PG, people
+          often don’t understand or realise the value of his advice like “make
+          something people want” or “do things that don’t scale”. I wonder if
+          the difference lies in if that statement alone is given or if it is
+          accompanied my metaphors of specific examples to help drive home the
+          point.
+        </li>
+        <li>
+          Is the issue with the advice, the way the advice is given, with the
+          advisor, or with the recipient? What is the assumed order of influence
+          in the likelihood of understanding/application? What are ways to
+          counter this?
+        </li>
+      </ul>
+      <br />
+      <h3 id="Heading">Heading</h3>
+      <ul>
+        <li>bullet point 1</li>
+        <li>Bullet point 2</li>
+      </ul>
+      <br />
+      <ol start="1">
+        <li>OL 1</li>
+        <li>OL2</li>
+        <li>OL 3</li>
+      </ol>
+      <br />
+      <p><b>Bold</b></p>
+      <br />
+      <p><i>Italic</i></p>
+      <br />
+      <p><u>Underlined</u></p>
+      <br />
+      <a href="index.html">Return to home</a>
+    </div>
+    <script type="text/javascript">
+      (function () {
+        var doc_ols = document.getElementsByTagName("ol");
+
+        for (i = 0; i < doc_ols.length; i++) {
+          var ol_start = doc_ols[i].getAttribute("start") - 1;
+          doc_ols[i].setAttribute(
+            "style",
+            "counter-reset:ol_counter " + ol_start + ";"
+          );
+        }
+      })();
+    </script>
+  </body>
+</html>

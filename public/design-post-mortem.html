@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Design post-mortem</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="created" content="2020-08-05T07:50:28+0100" />
+    <meta name="modified" content="2020-08-08T11:08:36+0100" />
+    <meta name="tags" content="" />
+    <meta name="last device" content="Essa’s iMac" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="blog-logo.png" type="image/png" />
+  </head>
+  <body>
+    <div class="note-wrapper">
+      <h1 id="Design post-mortem">Design post-mortem</h1>
+      <h3 id="Goals">Goals</h3>
+      <br />
+      <br />
+      <br />
+      <p><b>Agenda</b></p>
+      <ol start="1">
+        <li>Create second blog post</li>
+      </ol>
+      <br />
+      <ol start="1">
+        <li>Walkthrough of critical path, states, and variations.</li>
+        <li>Collection of feedback.</li>
+        <li>Summarise and action key points.</li>
+      </ol>
+      <br />
+      <p><b>Goals</b></p>
+      <ol start="1">
+        <li>Specific domain expert feedback.</li>
+        <li>Feedback on high level UX and copywriting.</li>
+      </ol>
+      <br />
+      <p><b>Anti goals</b></p>
+      <ol start="1">
+        <li>
+          Deep dives into stylistic or personal preferences. Such suggestions
+          will considered, actioned and validated at a later stage.
+        </li>
+      </ol>
+      <br />
+      <p><b>Considerations</b></p>
+      <ol start="1">
+        <li>
+          If permitted, sessions will be recorded to allow for fluid interaction
+          and writing of post call summary.
+        </li>
+      </ol>
+      <br />
+      <h3 id="What’s not yet complete">What’s not yet complete</h3>
+      <ol start="1">
+        <li>Finalised copy</li>
+        <li>Dev specific notes</li>
+      </ol>
+      <br />
+      <h3 id="Note:">Note:</h3>
+      <ul>
+        <li>Add team pro/con session later</li>
+      </ul>
+      <br />
+      <a href="index.html">Return to home</a>
+    </div>
+    <script type="text/javascript">
+      (function () {
+        var doc_ols = document.getElementsByTagName("ol");
+
+        for (i = 0; i < doc_ols.length; i++) {
+          var ol_start = doc_ols[i].getAttribute("start") - 1;
+          doc_ols[i].setAttribute(
+            "style",
+            "counter-reset:ol_counter " + ol_start + ";"
+          );
+        }
+      })();
+    </script>
+  </body>
+</html>
