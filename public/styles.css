@@ -147,6 +147,11 @@ html {
   line-height: 1.6em;
   -webkit-text-size-adjust: 100%;
 }
+@media screen and (max-width: 767px) {
+  html{
+    font-size: 14px;
+  }
+}
 body {
   background: #fcfcfc;
   color: #545454;
