@@ -143,13 +143,13 @@ html {
   line-height: 1.57143em;
 }
 html {
-  font-size: 28px;
+  font-size: 16px;
   line-height: 1.6em;
   -webkit-text-size-adjust: 100%;
 }
 @media screen and (max-width: 767px) {
   html{
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 body {
