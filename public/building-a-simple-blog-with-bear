@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Bear minimum - Building a super simple blog with Bear.app</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="modified" content="2020-08-13T20:31:44+0100" />
+    <meta name="tags" content="" />
+    <meta name="last device" content="Essa’s iMac" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="blog-logo.png" type="image/png">
+  </head>
+  <body>
+    <div class="note-wrapper">
+      <h1 id="The Bear minimum - Building a super simple blog with Bear.app">
+        The Bear minimum - Building a super simple blog with Bear.app
+      </h1>
+      <p>
+        <b>TLDR:</b> Create a super simple minimal blog with little to no coding
+        experience. Get <a href="https://bear.app">Bear</a> (only available on
+        Apple devices), export notes as HTML files, upload to GitHub, then link
+        to host/domain. Profit!
+      </p>
+      <br />
+      <p>
+        I love things that are stripped down to the bare essentials, but still
+        do their job well. I try to replicate this in both my personal and work
+        life. Here’s why:
+      </p>
+      <br />
+      <p>Big chunky things = Scary</p>
+      <p>Scary = Never gets done</p>
+      <p>Small and super simple = Gets done</p>
+      <br />
+      <p>
+        To get stuff done, I break down and simplify tasks to a degree that some
+        might consider excessive. This forcing function also helps me consider
+        and address core issues versus symptoms. This post is about how I used
+        this approach to quickly create a blog.
+      </p>
+      <br />
+      <p>
+        Having used Bear for years to keep a daily journal, I decided to start
+        writing online. With Bear as the inspiration, I listed what I needed
+        <b>now</b>, ignoring what I might one day use. The latter invites
+        indecision, complexity and delays. One path leads to a simple but
+        finished project, the momentum of a win, and the option for future
+        improvements. The other usually doesn’t go very far.
+      </p>
+      <br />
+      <p>My ideal blog needed to be:</p>
+      <ol start="1">
+        <li>
+          Self hosted on a custom domain. I prefer this over services like
+          Medium.
+        </li>
+        <li>Exceedingly easy to set up and update.</li>
+        <li>Text based. Images were not an immediate priority.</li>
+        <li>Styled for readability.</li>
+      </ol>
+      <br />
+      <p>
+        By listing problems <b>before</b> looking for solutions, I can quickly
+        filter results that don’t match. I’m then less likely to fall prey to
+        premature optimisation, marketing or aesthetic usability bias.
+      </p>
+      <br />
+      <p>
+        Most solutions (including Wordpress) simply did too much. Paradox of
+        choice was another issue. Having so many off-the-shelf options, each
+        with a microcosm of near infinite themes and widgets, was quite
+        overwhelming!
+      </p>
+      <br />
+      <p>
+        I took a step back and considered if the time I spent searching could
+        instead be used to build a blog from scratch. A quick Google once again
+        presented a paradox of choice; an endless number of ways or frameworks
+        to choose from. I’m not a programmer and didn’t know where to start, so
+        I took another step back. I drew up a simple plan, filled in some
+        blanks, and decided to ask a friend about the rest.
+      </p>
+      <br />
+      <p>
+        I realised that Bear could export notes in HTML, including all the CSS
+        at the bottom. This was a huge win as I could create a “home page” with
+        a title, a paragraph, and an unordered list of links to individual
+        posts. As for the posts themselves, I just needed to write them up in
+        Bear and export them.
+      </p>
+      <br />
+      <p>
+        Enter <a href="https://kasun.io">Kasun</a>, a friend, indie-hacker and
+        freelance programmer (who’s currently working remotely while travelling
+        across Sri Lanka). He was kind enough to teach me some basics about
+        HTML, hosting, and linking domains. Here’s what we did:
+      </p>
+      <br />
+      <ol start="1">
+        <li>Create and export notes from Bear.</li>
+        <li>
+          Create a <a href="https://github.com">GitHub</a> account and paste the
+          exported code into a project.
+        </li>
+        <li>
+          Use <a href="https://vercel.com">Vercel’s</a> free tier for hosting
+          and link to Github.
+        </li>
+        <li>Link domain to Vercel.</li>
+      </ol>
+      <br />
+      <p>
+        That’s pretty much it really. For someone familiar with the basics, it
+        would have taken under 15 mins to have a minimalist, well styled, and
+        self-hosted blog, all without writing a single line of code.
+      </p>
+      <br />
+      <p>
+        In the end, not only did I get my blog, but I also learned some basic
+        web development! It’s a big win in my book and I wanted to share this
+        post in case others (especially other Bear fans) want to do something
+        similar.
+      </p>
+      <br />
+      <h3 id="Postscript notes:">Postscript notes:</h3>
+      <ul>
+        <li>
+          Considering the number of available options, it’s likely that I missed
+          something that would have been a good fit. If so, feel free to tweet
+          me a link.
+        </li>
+        <li>
+          This blog is the first website I’ve built and has helped me realise
+          that code isn’t as “scary” as I once thought 😊.
+        </li>
+        <li>
+          Images aren’t included by default in Bear HTML exports. To include
+          them, you have to manually upload the picture to your GitHub project
+          and then include a link in the relevant HTML file as part of an image
+          tag.
+        </li>
+        <li>
+          Big thanks to the talented <a href="https://kasun.io">Kasun</a> for
+          the help! I can’t recommend him enough if you’re on the lookout for a
+          freelance developer. If you’re a designer, be sure to check out
+          <a href="https://whatthehex.app">What the Hex?!</a>, one of his
+          projects that lets you quickly assign names to your design system
+          colour palette.
+        </li>
+        <li>
+          If you’d like to build something similar and have questions, I’d love
+          to hear from you!
+        </li>
+        <br />
+      <a href="index.html">Return to home</a>
+      </ul>
+    </div>
+    <script type="text/javascript">
+      (function () {
+        var doc_ols = document.getElementsByTagName("ol");
+
+        for (i = 0; i < doc_ols.length; i++) {
+          var ol_start = doc_ols[i].getAttribute("start") - 1;
+          doc_ols[i].setAttribute(
+            "style",
+            "counter-reset:ol_counter " + ol_start + ";"
+          );
+        }
+      })();
+    </script>
+  </body>
+</html>
